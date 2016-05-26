@@ -1,0 +1,73 @@
+*like-phpstorm.txt*                                        A plugin for phper
+
+                                                                *like-phpstorm*
+                                                                            
+  @@@       @@@  @@@  @@@  @@@@@@@@             @@@@@@@   @@@  @@@  @@@@@@@   
+  @@@       @@@  @@@  @@@  @@@@@@@@             @@@@@@@@  @@@  @@@  @@@@@@@@  
+  @@!       @@!  @@!  !@@  @@!                  @@!  @@@  @@!  @@@  @@!  @@@  
+  !@!       !@!  !@!  @!!  !@!                  !@!  @!@  !@!  @!@  !@!  @!@  
+  @!!       !!@  @!@@!@!   @!!!:!    @!@!@!@!@  @!@@!@!   @!@!@!@!  @!@@!@!   
+  !!!       !!!  !!@!!!    !!!!!:    !!!@!@!!!  !!@!!!    !!!@!!!!  !!@!!!    
+  !!:       !!:  !!: :!!   !!:                  !!:       !!:  !!!  !!:       
+   :!:      :!:  :!:  !:!  :!:                  :!:       :!:  !:!  :!:       
+   :: ::::   ::   ::  :::   :: ::::              ::       ::   :::   ::       
+  : :: : :  :     :   :::  : :: ::               :         :   : :   :        
+                                                                              
+                                                      
+   @@@@@@   @@@@@@@   @@@@@@   @@@@@@@   @@@@@@@@@@   
+  @@@@@@@   @@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@@@@  
+  !@@         @@!    @@!  @@@  @@!  @@@  @@! @@! @@!  
+  !@!         !@!    !@!  @!@  !@!  @!@  !@! !@! !@!  
+  !!@@!!      @!!    @!@  !@!  @!@!!@!   @!! !!@ @!@  
+   !!@!!!     !!!    !@!  !!!  !!@!@!    !@!   ! !@!  
+       !:!    !!:    !!:  !!!  !!: :!!   !!:     !!:  
+      !:!     :!:    :!:  !:!  :!:  !:!  :!:     :!:  
+  :::: ::      ::    ::::: ::  ::   :::  :::     ::   
+  :: : :       :      : :  :    :   : :   :      :    
+                                                    
+
+
+ Maintainer: b4b4r07 <b4b4r07@gmail.com>
+    Website: https://github.com/b4b4r07/vim-like-phpstorm
+    License: Distributed under the same terms as Vim. See ':help license'.
+    Version: 0.0.1
+Last Change: 2016-05-27
+
+==============================================================================
+CONTENTS                                               *like-phpstorm-contents*
+
+  1. Introduction............................. |like-phpstorm-introduction|
+  2. Mappings................................. |like-phpstorm-mappings|
+  3. Changelog................................ |like-phpstorm-changelog|
+  4. License.................................. |like-phpstorm-license|
+
+==============================================================================
+1. INTRODUCTION                                    *like-phpstorm-introduction*
+
+This plugin emulates dot-return feature in PhpStorm for now.
+
+Features:~
+  * Like PhpStrom
+
+
+==============================================================================
+2. MAPPINGS                                            *like-phpstorm-mappings*
+
+  (Example)
+  :imap <C-x><C-a> <Plug>(lps-dot-return)
+
+
+==============================================================================
+3. CHANGELOG                                          *like-phpstorm-changelog*
+
+0.0~
+  * First public version.
+
+
+==============================================================================
+4. LICENSE                                              *like-phpstorm-license*
+
+Distributed under the same terms as Vim. See ':help license'.
+like-phpstorm (C) 2016 b4b4r07
+
+vim:tw=78:et:ts=2:sw=2:sts=2:ft=help:norl:
